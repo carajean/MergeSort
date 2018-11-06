@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+
 function split(arr) {
     let firstHalf = arr.slice(0, (arr.length) / 2);
     let secondHalf = arr.slice((arr.length) / 2);
@@ -24,8 +26,8 @@ function mergeSort(array, result = []) {
     // }
 
     // return merge(split(array));
-    
-    
+
+
     // if (split(array)[0].length < 2) {
     //     return merge(split(array));
     // } else {
